@@ -1,0 +1,88 @@
+Fibonacci
+
+
+
+package week1.day1;
+
+public class fibonacci {
+
+	public static void main(String[] args) {
+		
+		int range = 8;
+		int firstNum = 0;
+		int secNum = 1;
+		
+		for(int i=1;i<=range;++i) {
+			
+			System.out.print(firstNum+" ");
+			int sum = firstNum+secNum;
+			firstNum=secNum;
+			secNum=sum;
+		}
+		
+		
+
+	}
+
+}
+
+
+
+
+
+
+
+OddNumber
+
+
+
+
+package week1.day1;
+
+public class oddnumber {
+
+	public static void main(String[] args) {
+		
+		for (int i = 1; i <=20; i++) {
+			if(i%2==1){
+			System.out.println(i);
+			
+			}
+		}
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+
+
+
+
+
+Factorial
+
+
+
+
+
+
+package week1.day1;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+	
+		int fact=1;
+		
+		for (int i = 5; i >=1; i--) {
+			int mul=i*fact;
+			fact=mul;
+			
+		}
+		System.out.println(fact);
+
+	}
+
+}
