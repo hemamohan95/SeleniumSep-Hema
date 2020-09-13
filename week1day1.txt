@@ -1,7 +1,6 @@
 Fibonacci
 
 
-
 package week1.day1;
 
 public class fibonacci {
@@ -18,9 +17,7 @@ public class fibonacci {
 			int sum = firstNum+secNum;
 			firstNum=secNum;
 			secNum=sum;
-		}
-		
-		
+		}	
 
 	}
 
@@ -30,11 +27,7 @@ public class fibonacci {
 
 
 
-
-
 OddNumber
-
-
 
 
 package week1.day1;
@@ -49,7 +42,6 @@ public class oddnumber {
 			
 			}
 		}
-		// TODO Auto-generated method stub
 
 	}
 
@@ -58,14 +50,7 @@ public class oddnumber {
 
 
 
-
-
-
 Factorial
-
-
-
-
 
 
 package week1.day1;
