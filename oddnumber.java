@@ -10,7 +10,6 @@ public class oddnumber {
 			
 			}
 		}
-		// TODO Auto-generated method stub
 
 	}
 
